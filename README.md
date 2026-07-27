@@ -1,6 +1,6 @@
 # Quebra-Cabeças das 8 Pastilhas (8-Puzzle)
 
-Trabalho Prático desenvolvido no âmbito universitário que implementa o clássico jogo de quebra-cabeças sliding puzzle (jogo dos 8 números/pastilhas) em matrizes configuráveis.
+Trabalho Prático desenvolvido no âmbito universitário, primeiro período, que implementa o clássico jogo de quebra-cabeças sliding puzzle (jogo dos 8 números/pastilhas).
 
 ---
 
@@ -11,7 +11,7 @@ O **Quebra-Cabeças das 8 Pastilhas** consiste num tabuleiro $N \times N$ com $N
 ### Regras Básicas
 - Apenas as peças adjacentes ao espaço vazio podem ser movidas.
 - O jogo valida e impede comandos ou movimentos inválidos.
-- O programa deteta automaticamente quando todas as peças estão na posição correta e notifica a vitória.
+- O programa detecta automaticamente quando todas as peças estão na posição correta e notifica a vitória.
 
 ---
 
@@ -61,3 +61,26 @@ Os ficheiros de jogo guardados seguem a seguinte estrutura:
 1 5 4
 7 6 0
 12
+```
+
+## Estrutura do Repositório
+* `src/`: Código fonte (.cpp) com as implementações das funcionalidades e cabeçalhos (.h).
+* `bin/`: Binários e executáveis.
+* `test/`: Testes funcionais e regressivos.
+* `doc/`: Documentação técnica.
+
+## Como Compilar e Executar
+Para compilar todo o projeto:
+```bash
+make 
+```
+
+Para rodar o jogo:
+```bash
+make run
+```
+
+Para rodar o jogo (Segunda forma):
+```bash
+./bin/jogo
+```
